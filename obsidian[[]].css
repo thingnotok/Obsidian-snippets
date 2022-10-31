@@ -1,0 +1,19 @@
+.internal-link::before {
+    content: "[[";
+    color: var(–brackets-color);
+}
+
+.internal-link::after {
+    content: "]]";
+    color: var(–brackets-color);
+}
+
+.cm-hmd-internal-link::before {
+    content: "[[";
+    color: var(–brackets-color);
+}
+
+.cm-hmd-internal-link::after {
+    content: "]]";
+    color: var(–brackets-color);
+}
